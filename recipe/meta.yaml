@@ -43,6 +43,8 @@ requirements:
     - geopandas >=0.8
     - jdcal >=1.4
     - jsonschema >=3.2
+    - libgdal-jp2openjpeg
+    - libjxl <=0.11.2  # >=0.12.0 causes CI failures with rasterio/GDAL bina
     - mashumaro
     - matplotlib-base >=3.8.3,<4
     - netcdf4 >=1.5
